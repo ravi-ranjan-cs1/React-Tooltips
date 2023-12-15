@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: antiquewhite;
+}
+
+
+/* React Tooltip container */
+.gridContainer{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(4,1fr);
+  min-height: 400px;
+  background-color: bisque;
+  place-items: center;
+  border: 1px solid black;
+}
+
+/* buttons */
+.gridItems{
+  border: none;
+  background-color: inherit;
+  height: 80px;
+  min-width:330px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: dotted;
+}
+
+/* on overing */
+.gridItems :hover{
+  cursor: pointer;
+}
+
+.directions {
+  text-decoration: underline;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+
+/* media query */
+@media screen and (max-width: 800px){
+  h1{
+    font-size: 20px;
+  }
+
+  .gridContainer{
+    margin: 1%;
+    transition: 1s all ease-in-out;
+  }
+  .gridItems {
+    height: auto;
+    font-size: 14px;
+    transition: 1s all ease-in-out;
+  }
+}

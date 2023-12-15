@@ -1,0 +1,37 @@
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Tektur', cursive;
+}
+
+#leftColor{
+  color: blueviolet;
+  text-transform: capitalize;
+  text-decoration:dashed underline;
+  text-underline-offset: 4px;
+}
+
+#rightColor{
+  color: yellowgreen;
+  text-transform: capitalize;
+  text-decoration:dashed underline;
+  text-underline-offset: 4px;
+}
+
+#topColor{
+  color: blue;
+  text-transform: capitalize;
+  text-decoration:dashed underline;
+  text-underline-offset: 4px;
+}
+
+#bottomColor{
+  color: brown;
+  text-transform: capitalize;
+  text-decoration:dashed underline;
+  text-underline-offset: 4px;
+}
