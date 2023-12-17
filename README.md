@@ -12,5 +12,3 @@ Tooltips are shown using CSS and initially are hidden but when the mouse is hove
 
 ## Hoisted
 Render : https://react-tooltip-4bg9.onrender.com/
-
-Firebase : https://react-tooltip-17713.web.app/
